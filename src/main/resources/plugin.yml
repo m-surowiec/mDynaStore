@@ -1,0 +1,18 @@
+name: mDynaStore
+version: '${project.version}'
+main: me.msuro.mdynastore.MDynaStore
+api-version: '1.16'
+authors: [mSuro_]
+
+commands:
+  mds:
+    description: Main command for mDynaStore
+    usage: /mds <subcommand> [args]
+
+permissions:
+  mdynastore.cmd.*:
+    description: Allows the player to use all mDynaStore commands
+    default: op
+  mdynastore.cmd.reload:
+    description: Allows the player to reload the plugin
+    default: op

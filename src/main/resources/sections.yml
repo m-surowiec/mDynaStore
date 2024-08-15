@@ -1,0 +1,36 @@
+weapons:
+  enable: true
+  slot: 0
+  hidden: false
+  display-item:
+    material: DIAMOND_SWORD
+    name: '&6Weapons'
+    glowing: true
+    lore:
+      - '&7Click to open the weapons section.'
+  gui:
+    title: '&6Weapons'
+    rows: 6
+    filler:
+      material: BLACK_STAINED_GLASS_PANE
+      name: ' '
+
+tools:
+  enable: true
+  slot: 1
+  hidden: false
+  display-item:
+    material: PLAYER_HEAD
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjNjYjFmYWI0YThlNzc0MzM0NzcxNjc1M2U0NGJhYTBmNTE4OTE0ZWViZjJhM2JlMWNmZGQzMWQ0Mzk1NDUxOCJ9fX0='
+    name: '&6Tools'
+    glowing: false
+    enchantments:
+      - 'PROTECTION:10'
+    lore:
+      - '&7Click to open the tools section.'
+  gui:
+    title: '&2Tools'
+    rows: 3
+    filler:
+      material: WHITE_STAINED_GLASS_PANE
+      name: ' '

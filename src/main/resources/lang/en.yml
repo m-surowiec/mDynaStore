@@ -1,0 +1,16 @@
+commands:
+  no-permission: "{P} &cYou don't have permission to do that!"
+
+transaction-screen:
+  lore:
+    - "                                             "
+    - " &a&lBuy Price:"
+    - "  &a&l■ &f${buy-price}"
+    - " "
+    - " &c&lSell Price:"
+    - "  &c&l■ &f${sell-price}"
+    - " "
+    - " &e&lUsage:"
+    - "  &e&l■ &fLMB to Buy"
+    - "  &e&l■ &fRMB to Sell"
+    - "  &e&l■ &fSHIFT + RMB to Sell All"

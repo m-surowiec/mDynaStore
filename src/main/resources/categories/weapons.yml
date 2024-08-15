@@ -1,0 +1,8 @@
+page_1:
+  0:
+    material: DIAMOND_SWORD
+    name: '&bSuper-Duper Sword'
+    lore:
+      - '&7This sword is super-duper.'
+    buy: 100
+    sell: 30

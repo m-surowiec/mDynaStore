@@ -1,0 +1,8 @@
+page_1:
+  2:
+    material: DIAMOND_PICKAXE
+    name: '&bSuper-Duper Pickaxe'
+    lore:
+      - '&7This pickaxe is super-duper.'
+    buy: 100
+    sell: 30

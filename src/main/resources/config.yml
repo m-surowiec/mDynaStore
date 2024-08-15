@@ -1,0 +1,51 @@
+prefix: "#08FBF1&lm#15FBE8&lD#22FBDF&ly#2FFBD6&ln#3CFBCD&la#4AFAC3&lS#57FABA&lt#64FAB1&lo#71FAA8&lr#7EFA9F&le &8→&r"
+lang: en
+
+# Should the plugin cache all the items from the store?
+# This will make opening all guis faster but reloading the plugin will take much more time
+cache-all-items: true
+
+main-gui:
+  title: "#124D99&lꜱ#15509D&lᴇ#1854A0&lʟ#1B57A4&lᴇ#1F5BA8&lᴄ#225EAC&lᴛ #2865B3&lᴄ#2865B3&lᴀ#2865B3&lᴛ#2865B3&lᴇ#2865B3&lɢ#2865B3&lᴏ#2865B3&lʀ#2865B3&lʏ"
+  rows: 6
+  filler:
+    material: BLACK_STAINED_GLASS_PANE
+    name: " "
+
+navbar:
+  # The navbar is always displayed at the bottom of all the GUIS
+  enable: true
+  go_back:
+    slot: 4
+    display-item:
+      material: BARRIER
+      name: "&cGo back"
+      lore:
+        - "&7Click to go back to the previous GUI."
+  previous_page:
+    slot: 0
+    display-item:
+      material: PLAYER_HEAD
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWYxMzNlOTE5MTlkYjBhY2VmZGMyNzJkNjdmZDg3YjRiZTg4ZGM0NGE5NTg5NTg4MjQ0NzRlMjFlMDZkNTNlNiJ9fX0="
+      name: "&bPrevious Page"
+      lore:
+        - "&7Click to go to the previous page."
+  next_page:
+    slot: 8
+    display-item:
+      material: PLAYER_HEAD
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTNmYzUyMjY0ZDhhZDllNjU0ZjQxNWJlZjAxYTIzOTQ3ZWRiY2NjY2Y2NDkzNzMyODliZWE0ZDE0OTU0MWY3MCJ9fX0="
+      name: "&bNext Page"
+      lore:
+        - "&7Click to go to the next page."
+  filler:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+
+dynamic-prices:
+  # How often the prices should be saved to the file in seconds
+  save-interval: 1800
+
+
+# WARNING: Do not change this value as it may break the plugin
+config-version: 1.0
